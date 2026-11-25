@@ -1,0 +1,8 @@
+# Requirements para a atividade de Churn Bancário com Redes Neurais (MLP)
+torch==2.15.0+cpu
+scikit-learn==1.9.1
+pandas==2.3.3
+numpy==2.3.5
+matplotlib==3.11.2
+seaborn==0.13.2
+imbalanced-learn==0.14.2
