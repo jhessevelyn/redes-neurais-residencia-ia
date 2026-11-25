@@ -116,4 +116,5 @@ O notebook inclui respostas conceituais aprofundadas sobre:
 ---
 
 ## Autor
-Desenvolvido como atividade prática da disciplina de Redes Neurais Artificiais.
+Desenvolvido como atividade prática de Redes Neurais. 
+Por: Jhessica 
