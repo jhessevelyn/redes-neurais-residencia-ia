@@ -1,4 +1,4 @@
-# 🧠 Redes Neurais - Residência IA
+# Redes Neurais - Residência IA
 ### Previsão de Churn Bancário com Redes Neurais Artificiais (MLP)
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)
@@ -11,7 +11,7 @@ Projeto desenvolvido no âmbito do programa **Residência IA**, com foco na apli
 
 ---
 
-## 📌 Visão Geral do Projeto
+##  Visão Geral do Projeto
 
 A retenção de clientes é um dos maiores desafios estratégicos do setor bancário, uma vez que o custo de atração de um novo correntista é substancialmente superior ao de retenção de um cliente fidelizado.
 
@@ -26,7 +26,7 @@ Neste projeto:
 
 ---
 
-## 📊 Principais Resultados
+## Principais Resultados
 
 ### Comparativo Final no Conjunto de Teste (1.500 clientes)
 
@@ -40,7 +40,7 @@ Neste projeto:
 
 ---
 
-## 🏗️ Arquitetura da Rede Neural Campeã
+## Arquitetura da Rede Neural Campeã
 
 - **Camada de Entrada:** 12 atributos após pré-processamento.
 - **Camada Oculta 1:** 64 neurônios + ativação `ReLU` + `Dropout(0.3)`.
@@ -52,7 +52,7 @@ Neste projeto:
 
 ---
 
-## 💡 Principais Fatores de Churn (Permutation Importance)
+## Principais Fatores de Churn (Permutation Importance)
 
 1. **Idade (`Age`):** Fator mais determinante da rede. Clientes acima de 40 anos evadem significativamente mais em busca de serviços patrimoniais.
 2. **Número de Produtos (`NumOfProducts`):** Clientes com 2 produtos possuem a menor taxa de churn (7,6%). Clientes com 1 produto (27,7%) ou 3+ produtos (82% a 100%) apresentam altíssimo risco.
@@ -60,7 +60,7 @@ Neste projeto:
 
 ---
 
-## 📁 Estrutura do Repositório
+## Estrutura do Repositório
 
 ```text
 ├── churn_rna.ipynb             # Notebook executado com todos os gráficos e células de texto
@@ -74,7 +74,7 @@ Neste projeto:
 
 ---
 
-## 🚀 Como Executar o Projeto
+## Como Executar o Projeto
 
 ### Opção 1: Google Colab
 1. Acesse o [Google Colab](https://colab.research.google.com/).
@@ -104,7 +104,7 @@ jupyter notebook churn_rna.ipynb
 
 ---
 
-## 📝 Respostas às Questões Teóricas
+## Respostas às Questões Teóricas
 
 O notebook inclui respostas conceituais aprofundadas sobre:
 1. **Sigmoide na saída vs ReLU nas ocultas:** Mapeamento probabilístico contínuo $(0, 1)$ versus mitigação do *vanishing gradient* e aceleração computacional.
@@ -115,5 +115,5 @@ O notebook inclui respostas conceituais aprofundadas sobre:
 
 ---
 
-## 👨‍💻 Autor
+## Autor
 Desenvolvido como atividade prática da disciplina de Redes Neurais Artificiais.
