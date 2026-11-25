@@ -16,13 +16,13 @@ Projeto desenvolvido no âmbito do programa **Residência IA**, com foco na apli
 A retenção de clientes é um dos maiores desafios estratégicos do setor bancário, uma vez que o custo de atração de um novo correntista é substancialmente superior ao de retenção de um cliente fidelizado.
 
 Neste projeto:
-1. Realizamos uma **Análise Exploratória de Dados (EDA)** completa com formulação de hipóteses de negócio.
-2. Construímos um pipeline de pré-processamento via `ColumnTransformer` (One-Hot, codificação binária e padronização com `StandardScaler` ajustado estritamente no treino).
-3. Desenvolvemos e treinamos um modelo de referência (**Regressão Logística**) e uma **MLP inicial**.
-4. Executamos um grid de sintonia com **6 configurações de hiperparâmetros** (variando camadas, neurônios, ativações, taxas de aprendizado, Dropout e regularização L2) utilizando **Early Stopping**.
-5. Tratamos o desbalanceamento de classes com `class_weight` / `pos_weight` e `SMOTE`, calibrando o limiar operacional de decisão (*threshold tuning*).
-6. Avaliamos o modelo final **uma única vez no conjunto de teste** (1.500 amostras intocadas) e extraímos a importância dos atributos com **Permutation Feature Importance**.
-7. Respondemos detalhadamente às questões conceituais teóricas de arquitetura de redes neurais.
+1. Realizei uma **Análise Exploratória de Dados (EDA)** completa com formulação de hipóteses de negócio.
+2. Construí um pipeline de pré-processamento via `ColumnTransformer` (One-Hot, codificação binária e padronização com `StandardScaler` ajustado estritamente no treino).
+3. Desenvolvi e treinamos um modelo de referência (**Regressão Logística**) e uma **MLP inicial**.
+4. Executei um grid de sintonia com **6 configurações de hiperparâmetros** (variando camadas, neurônios, ativações, taxas de aprendizado, Dropout e regularização L2) utilizando **Early Stopping**.
+5. Tratei o desbalanceamento de classes com `class_weight` / `pos_weight` e `SMOTE`, calibrando o limiar operacional de decisão (*threshold tuning*).
+6. Avaliei o modelo final **uma única vez no conjunto de teste** (1.500 amostras intocadas) e extraímos a importância dos atributos com **Permutation Feature Importance**.
+7. Respondi detalhadamente às questões conceituais teóricas de arquitetura de redes neurais.
 
 ---
 
