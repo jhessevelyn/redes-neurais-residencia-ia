@@ -1,4 +1,5 @@
-# 🧠 Previsão de Churn Bancário com Redes Neurais Artificiais (MLP)
+# 🧠 Redes Neurais - Residência IA
+### Previsão de Churn Bancário com Redes Neurais Artificiais (MLP)
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-orange?logo=pytorch)
@@ -6,7 +7,7 @@
 ![Pandas](https://img.shields.io/badge/Pandas-2.0%2B-150458?logo=pandas)
 ![Status](https://img.shields.io/badge/Status-Concluído-success)
 
-Projeto prático de **Deep Learning / Redes Neurais Artificiais (Multilayer Perceptron - MLP)** desenvolvido em **PyTorch** para predição preventiva de evasão de clientes (*churn*) em uma instituição bancária europeia, utilizando a base de dados `Churn_Modelling.csv` (Kaggle).
+Projeto desenvolvido no âmbito do programa **Residência IA**, com foco na aplicação prática de **Deep Learning / Redes Neurais Artificiais (Multilayer Perceptron - MLP)** em **PyTorch** para predição preventiva de evasão de clientes (*churn*) em uma instituição bancária europeia (`Churn_Modelling.csv`).
 
 ---
 
@@ -84,8 +85,8 @@ Neste projeto:
 Clone o repositório e configure o ambiente:
 ```bash
 # Clone o repositório
-git clone https://github.com/jhessevelyn/<nome-do-repositorio>.git
-cd <nome-do-repositorio>
+git clone https://github.com/jhessevelyn/redes-neurais-residencia-ia.git
+cd redes-neurais-residencia-ia
 
 # Crie e ative um ambiente virtual (opcional, recomendado)
 python -m venv venv
